@@ -5,8 +5,8 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "formik-umd.js",
-    library: "formik",
+    filename: "rappid-umd.js",
+    library: "rappid",
     libraryTarget: "umd",
     libraryExport: "default",
   },

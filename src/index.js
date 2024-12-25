@@ -1,2 +1,3 @@
-import * as formik from 'formik';
-export default formik;
+import rappid from 'rappid';
+
+export default rappid;

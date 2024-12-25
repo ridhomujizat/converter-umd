@@ -2,20 +2,20 @@
   "name": "yup-umd",
   "version": "0.32.8",
   "description": "UMD module of the yup.",
-  "mosulw": "dist/formik-umd.js",
+  "mosulw": "dist/rappid-umd.js",
   "keywords": [
-    "formik"
+    "rappid"
   ],
   "scripts": {
     "build": "npx webpack-cli build"
   },
   "author": "kazuhide maruyama",
   "license": "MIT",
-  "devDependencies": {},
   "dependencies": {
-    "formik": "^2.2.9",
+    "rappid": "file:rappid.tgz",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
-    "yup": "^0.32.11"
+    "@clientio/rappid": "file:rappid.tgz"
+
   }
 }
